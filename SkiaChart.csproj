@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>0.1</PackageVersion>
+    <Authors>Gergely Kalapos</Authors>
+    <Description>Charting library based on SkiaSharp</Description>
+    <PackageId>SkiaChart</PackageId>
+    <Owners>Gergely Kalapos</Owners>
+    <PackageProjectUrl>https://github.com/gregkalapos/SkiaChart</PackageProjectUrl>
+    <PackageReleaseNotes>Prototype Implementation</PackageReleaseNotes>
+    <Title>SkiaChart</Title>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Summary>n</Summary>
+    <PackageTags>Chart</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="1.59.1" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.1.276" />
+  </ItemGroup>
+</Project>
